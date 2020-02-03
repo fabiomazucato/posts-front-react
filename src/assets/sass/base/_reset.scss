@@ -1,0 +1,34 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	font-size: 62.5%;
+	overflow: auto;
+}
+
+body {
+	font-size: 1.5rem;
+	font-family: -apple-system, -webkit-system-font, Helvetica, Arial, san-serif;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+
+ul {
+	padding-inline-start: 0;
+	list-style: none;
+}
+
+a {
+	color: $colorSecondary;
+	text-decoration: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
